@@ -58,7 +58,8 @@ Logical predicates in LS and CA, and verification parameters in VT, make relatio
 
 ## Formalized Syntax
 ClariGram’s syntax is flexible for human use but formalized for machine parsability. Below is an Extended Backus-Naur Form (EBNF)-like notation:
-"""
+
+```
 "ClariGramStatement" ::= "RuleTag"+ "NaturalText"?
 "RuleTag" ::= "[" "RuleCode" ":" "Content" "]"
 "RuleCode" ::= "ED" | "LS" | "CA" | "QP" | "VT" | "EC" | "RA"
@@ -67,7 +68,7 @@ ClariGram’s syntax is flexible for human use but formalized for machine parsab
 "Key" ::= "term" | "StepX" | "if_condition" | "predicate" | "source" | "senses" | "confidence" | ...
 "Value" ::= "Text" | "Number" | "Range"  # e.g., "achieving goals", "senses", "sight,hearing"
 "Predicate" ::= "relates-to" | "causes" | "implies" | "precedes" | "contradicts"
-"""
+```
 
 Example: "[VT: observation; source=senses; senses=sight,hearing; confidence=100%]" converts to JSON: `{"VT": {"type": "observation", "source": "senses", "senses": "sight,hearing", "confidence": "100%"}}`.
 
