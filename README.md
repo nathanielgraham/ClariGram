@@ -1,4 +1,4 @@
-# ClariGram: An Experimental Grammar for Clarity and Precision
+# ClariGram: A Proposed Grammar for Clarity and Precision
 
 ## Overview
 ClariGram is an overlay on standard English designed to enhance clarity in internal thinking and external communication. It introduces structured rules to reduce ambiguity, organize complex ideas, and promote persuasive, audience-tailored expression. Inspired by logical languages (e.g., Lojban), controlled natural languages (e.g., Attempto Controlled English), and classical education frameworks like the Trivium, ClariGram is intuitive, conversational, and practical for everyday use, such as journaling, professional communication, or collaborative problem-solving. It also serves as a structured "prompt dialect" for AI prompt engineering, guiding large language models (LLMs) toward reliable outputs. ClariGram is a proposed framework, actively seeking community feedback to refine its applications.
@@ -112,11 +112,6 @@ ClariGram supports optional machine parsability for AI prompting or software int
 - **Trivium**: Educational framework; inspired ClariGram’s structure and RA.
 - **LLMs**: Probabilistic; ClariGram enhances prompting clarity.
 
-## Cost-Benefit Analysis
-- **Costs**: ~5-10 hours to learn; initial cognitive load; minor verbosity risk.
-- **Benefits**: Reduces cognitive load; saves 4-6 hours/week in tasks; enhances collaboration [10].
-- **Net Value**: High for knowledge workers; moderate for casual use. Start with 2-3 rules.
-
 ## Python/LangChain Implementation
 ```python
 from langchain.prompts import PromptTemplate
@@ -161,8 +156,8 @@ clarigram_prompt = PromptTemplate(
 For questions, feedback, or contributions, contact ngraham@cpan.org.
 
 ## References
-- [1] Wan et al., "Grammar Prompting for Domain-Specific Language Generation with Large Language Models," NeurIPS 2023.
-- [2] LangChain, "LangGraph Documentation," langchain-ai.github.io/langgraph, 2025.
-- [5] Chen et al., "Prompting Large Language Models as Commonsense Knowledge Graphs," arXiv, 2023.
-- [7] Wei et al., "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models," arXiv, 2022.
-- [10] Sweller, "Cognitive Load Theory," Springer, 2011.
+[1] Wan et al., "Grammar Prompting for Domain-Specific Language Generation with Large Language Models," NeurIPS 2023.
+[2] LangChain, "LangGraph Documentation," langchain-ai.github.io/langgraph, 2025.
+[5] Chen et al., "Prompting Large Language Models as Commonsense Knowledge Graphs," arXiv, 2023.
+[7] Wei et al., "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models," arXiv, 2022.
+[10] Sweller, "Cognitive Load Theory," Springer, 2011.
