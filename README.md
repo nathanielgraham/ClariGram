@@ -154,11 +154,11 @@ clarigram_prompt = PromptTemplate(
 - AI Integration: Use with LangGraph for graph-based prompting; explore embodied AI with sensory capabilities (e.g., robots with vision/audio sensors) to align with future LLM developments.
 
 ## Contact
-For questions, feedback, or contributions, contact ngraham@cpan.org.
+- **Email:** Nathaniel Graham [ngraham@cpan.org](ngraham@cpan.org)
 
 ## References
-[1] Wan et al., "Grammar Prompting for Domain-Specific Language Generation with Large Language Models," NeurIPS 2023.
-[2] LangChain, "LangGraph Documentation," langchain-ai.github.io/langgraph, 2025.
-[5] Chen et al., "Prompting Large Language Models as Commonsense Knowledge Graphs," arXiv, 2023.
-[7] Wei et al., "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models," arXiv, 2022.
-[10] Sweller, "Cognitive Load Theory," Springer, 2011.
+- [1] Wan et al., "Grammar Prompting for Domain-Specific Language Generation with Large Language Models," NeurIPS 2023.
+- [2] LangChain, "LangGraph Documentation," langchain-ai.github.io/langgraph, 2025.
+- [5] Chen et al., "Prompting Large Language Models as Commonsense Knowledge Graphs," arXiv, 2023.
+- [7] Wei et al., "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models," arXiv, 2022.
+- [10] Sweller, "Cognitive Load Theory," Springer, 2011.
